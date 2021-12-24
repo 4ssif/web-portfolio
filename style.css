@@ -6,7 +6,7 @@ h1{
     font-size: 50px;
     margin: 10px 0px;
 }
-.nameHighlight{
+.orangeHighlight{
     color: orange;
 }
 .leftCol{
@@ -14,18 +14,31 @@ h1{
     float: left;
     margin: 5%;
     margin-top: 5px;
-}
-.leftCol img{
-    float: right;
-    height: 500px;
-    width: auto;
+    padding-top: 40px;
 }
 section{
     height: 500px;
 }
+.l1{
+    margin: 5% 3% 5% 7%;
+    margin-top: 5px;
+}
+.leftCol img{
+    float: right;
+    height: 450px;
+    width: auto;
+}
 .firstSection{
-    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    height: 600px;
+}
+.bg-1{
+    background-image: url("images/top-banner.png");
+}
+.bg-2{
+    background-image: url("images/dream-bg.png");
+    background-position: right;
+    background-position: right 0px;
 }
 .link-button{
     text-decoration: none;
@@ -34,6 +47,32 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: bold;
-    
 
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box{
+    width: 34%;
+    float: left;
+    margin: 5%;
+    margin-top: 5px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 80%;
+    padding: 2%;
+    background-color: white;
+}
+#fullStack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,lightSalmon, red) ;
+    border-image-slice: 1;
+}
+#babyDev{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan) ;
+    border-image-slice: 1;
 }
